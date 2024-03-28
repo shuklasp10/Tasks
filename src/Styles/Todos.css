@@ -1,0 +1,49 @@
+/* Todos.css */ 
+.todos-container {
+    padding: 20px;
+  }
+   
+   .todo-item {
+     display: flex;         
+     align-items: center;
+     background-color: white;  /* White background for individual items */
+     padding: 12px;
+     border-radius: 4px;
+     margin-bottom: 8px;
+     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+     display: flex;
+     align-content: center;
+   }
+  
+   .todo-content {
+    flex-grow: 1;
+   }
+  
+   .todo-item-checkbox {
+     margin-right: 15px; 
+   }
+   
+   .todo-item-label {
+     text-decoration: none; 
+     flex-grow: 1;  /* Make the label take up remaining space */
+   }
+   
+   .todo-item-label-done { 
+     text-decoration: line-through; 
+     color: gray;  
+   }
+   
+   .todo-new {
+     padding: 10px; 
+     margin-top: 15px; 
+     margin-bottom: 15px; 
+     border-top: 0px;
+     border-right: 0px;
+     border-left: 0px;
+     border-bottom: 2px solid grey;
+     border-radius: 2px;
+     width: 100%; 
+     box-sizing: border-box; 
+     font-family: 'Roboto', sans-serif; /* Material UI style font */
+   }
+   
